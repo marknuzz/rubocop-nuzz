@@ -1,2 +1,2 @@
 # rubocop-nuzz
-A collection of Rubocop styles
+A collection of Rubocop styles (Ruby)

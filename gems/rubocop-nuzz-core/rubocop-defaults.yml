@@ -1,0 +1,1916 @@
+# Department 'Bundler' (7):
+Bundler/DuplicatedGem:
+  Enabled: true
+  VersionAdded: "0.46"
+  VersionChanged: "1.40"
+Bundler/DuplicatedGroup:
+  Enabled: true
+  VersionAdded: "1.56"
+Bundler/GemComment:
+  Enabled: false
+  VersionAdded: "0.59"
+  VersionChanged: "0.85"
+Bundler/GemFilename:
+  Enabled: true
+  VersionAdded: "1.20"
+Bundler/GemVersion:
+  Enabled: false
+  VersionAdded: "1.14"
+Bundler/InsecureProtocolSource:
+  Enabled: true
+  VersionAdded: "0.50"
+  VersionChanged: "1.40"
+Bundler/OrderedGems:
+  Enabled: true
+  VersionAdded: "0.46"
+  VersionChanged: "0.47"
+# Department 'Gemspec' (9):
+Gemspec/AddRuntimeDependency:
+  Enabled: true
+  VersionAdded: "1.65"
+Gemspec/DependencyVersion:
+  Enabled: false
+  VersionAdded: "1.29"
+Gemspec/DeprecatedAttributeAssignment:
+  Enabled: true
+  VersionAdded: "1.30"
+  VersionChanged: "1.40"
+Gemspec/DevelopmentDependencies:
+  Enabled: true
+  VersionAdded: "1.44"
+Gemspec/DuplicatedAssignment:
+  Enabled: true
+  VersionAdded: "0.52"
+  VersionChanged: "1.40"
+Gemspec/OrderedDependencies:
+  Enabled: true
+  VersionAdded: "0.51"
+Gemspec/RequireMFA:
+  Enabled: true
+  VersionAdded: "1.23"
+  VersionChanged: "1.40"
+Gemspec/RequiredRubyVersion:
+  Enabled: true
+  VersionAdded: "0.52"
+  VersionChanged: "1.40"
+Gemspec/RubyVersionGlobalsUsage:
+  Enabled: true
+  VersionAdded: "0.72"
+  VersionChanged: "1.40"
+# Department 'Layout' (99):
+Layout/AccessModifierIndentation:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/ArgumentAlignment:
+  Enabled: true
+  VersionAdded: "0.68"
+  VersionChanged: "0.77"
+Layout/ArrayAlignment:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "0.77"
+Layout/AssignmentIndentation:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "1.45"
+Layout/BeginEndAlignment:
+  Enabled: true
+  VersionAdded: "0.91"
+Layout/BlockAlignment:
+  Enabled: true
+  VersionAdded: "0.53"
+Layout/BlockEndNewline:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/CaseIndentation:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "1.16"
+Layout/ClassStructure:
+  Enabled: false
+  VersionAdded: "0.52"
+  VersionChanged: "1.53"
+Layout/ClosingHeredocIndentation:
+  Enabled: true
+  VersionAdded: "0.57"
+Layout/ClosingParenthesisIndentation:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/CommentIndentation:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "1.24"
+Layout/ConditionPosition:
+  Enabled: true
+  VersionAdded: "0.53"
+  VersionChanged: "0.83"
+Layout/DefEndAlignment:
+  Enabled: true
+  VersionAdded: "0.53"
+Layout/DotPosition:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/ElseAlignment:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/EmptyComment:
+  Enabled: true
+  VersionAdded: "0.53"
+  VersionChanged: "1.61"
+Layout/EmptyLineAfterGuardClause:
+  Enabled: true
+  VersionAdded: "0.56"
+  VersionChanged: "0.59"
+Layout/EmptyLineAfterMagicComment:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/EmptyLineAfterMultilineCondition:
+  Enabled: false
+  VersionAdded: "0.90"
+Layout/EmptyLineBetweenDefs:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "1.23"
+Layout/EmptyLines:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/EmptyLinesAroundAccessModifier:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/EmptyLinesAroundArguments:
+  Enabled: true
+  VersionAdded: "0.52"
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+  VersionAdded: "0.83"
+  VersionChanged: "0.84"
+Layout/EmptyLinesAroundBeginBody:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/EmptyLinesAroundClassBody:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "0.53"
+Layout/EmptyLinesAroundExceptionHandlingKeywords:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/EndAlignment:
+  Enabled: true
+  VersionAdded: "0.53"
+Layout/EndOfLine:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/ExtraSpacing:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/FirstArgumentIndentation:
+  Enabled: true
+  VersionAdded: "0.68"
+  VersionChanged: "0.77"
+Layout/FirstArrayElementIndentation:
+  Enabled: true
+  VersionAdded: "0.68"
+  VersionChanged: "0.77"
+Layout/FirstArrayElementLineBreak:
+  Enabled: false
+  VersionAdded: "0.49"
+Layout/FirstHashElementIndentation:
+  Enabled: true
+  VersionAdded: "0.68"
+  VersionChanged: "0.77"
+Layout/FirstHashElementLineBreak:
+  Enabled: false
+  VersionAdded: "0.49"
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: false
+  VersionAdded: "0.49"
+Layout/FirstMethodParameterLineBreak:
+  Enabled: false
+  VersionAdded: "0.49"
+Layout/FirstParameterIndentation:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "0.77"
+Layout/HashAlignment:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "1.16"
+Layout/HeredocArgumentClosingParenthesis:
+  Enabled: false
+  VersionAdded: "0.68"
+Layout/HeredocIndentation:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "0.85"
+Layout/IndentationConsistency:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/IndentationStyle:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "0.82"
+Layout/IndentationWidth:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/InitialIndentation:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/LeadingCommentSpace:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "0.73"
+Layout/LeadingEmptyLines:
+  Enabled: true
+  VersionAdded: "0.57"
+  VersionChanged: "0.77"
+Layout/LineContinuationLeadingSpace:
+  Enabled: true
+  VersionAdded: "1.31"
+  VersionChanged: "1.45"
+Layout/LineContinuationSpacing:
+  Enabled: true
+  VersionAdded: "1.31"
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: true
+  VersionAdded: "1.18"
+Layout/LineLength:
+  Enabled: true
+  VersionAdded: "0.25"
+  VersionChanged: "1.4"
+Layout/MultilineArrayBraceLayout:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/MultilineArrayLineBreaks:
+  Enabled: false
+  VersionAdded: "0.67"
+Layout/MultilineAssignmentLayout:
+  Enabled: false
+  VersionAdded: "0.49"
+Layout/MultilineBlockLayout:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/MultilineHashBraceLayout:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: false
+  VersionAdded: "0.67"
+Layout/MultilineMethodArgumentLineBreaks:
+  Enabled: false
+  VersionAdded: "0.67"
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/MultilineMethodDefinitionBraceLayout:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/MultilineMethodParameterLineBreaks:
+  Enabled: false
+  VersionAdded: "1.32"
+Layout/MultilineOperationIndentation:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/ParameterAlignment:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "0.77"
+Layout/RedundantLineBreak:
+  Enabled: false
+  VersionAdded: "1.13"
+Layout/RescueEnsureAlignment:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SingleLineBlockChain:
+  Enabled: false
+  VersionAdded: "1.14"
+Layout/SpaceAfterColon:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceAfterComma:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceAfterMethodName:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceAfterNot:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceAfterSemicolon:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceAroundBlockParameters:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceAroundEqualsInParameterDefault:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceAroundKeyword:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+  VersionAdded: "0.82"
+Layout/SpaceAroundOperators:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceBeforeBlockBraces:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "0.52"
+Layout/SpaceBeforeBrackets:
+  Enabled: true
+  VersionAdded: "1.7"
+Layout/SpaceBeforeComma:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceBeforeComment:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceBeforeFirstArg:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceBeforeSemicolon:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceInLambdaLiteral:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: true
+  VersionAdded: "0.52"
+Layout/SpaceInsideArrayPercentLiteral:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceInsideBlockBraces:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceInsideHashLiteralBraces:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceInsideParens:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "1.22"
+Layout/SpaceInsidePercentLiteralDelimiters:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceInsideRangeLiteral:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/SpaceInsideReferenceBrackets:
+  Enabled: true
+  VersionAdded: "0.52"
+  VersionChanged: "0.53"
+Layout/SpaceInsideStringInterpolation:
+  Enabled: true
+  VersionAdded: "0.49"
+Layout/TrailingEmptyLines:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "0.77"
+Layout/TrailingWhitespace:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "1.0"
+# Department 'Lint' (139):
+Lint/AmbiguousAssignment:
+  Enabled: true
+  VersionAdded: "1.7"
+Lint/AmbiguousBlockAssociation:
+  Enabled: true
+  VersionAdded: "0.48"
+  VersionChanged: "1.13"
+Lint/AmbiguousOperator:
+  Enabled: true
+  VersionAdded: "0.17"
+  VersionChanged: "0.83"
+Lint/AmbiguousOperatorPrecedence:
+  Enabled: true
+  VersionAdded: "1.21"
+Lint/AmbiguousRange:
+  Enabled: true
+  VersionAdded: "1.19"
+Lint/AmbiguousRegexpLiteral:
+  Enabled: true
+  VersionAdded: "0.17"
+  VersionChanged: "0.83"
+Lint/AssignmentInCondition:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "1.45"
+Lint/BigDecimalNew:
+  Enabled: true
+  VersionAdded: "0.53"
+Lint/BinaryOperatorWithIdenticalOperands:
+  Enabled: true
+  VersionAdded: "0.89"
+  VersionChanged: "1.7"
+Lint/BooleanSymbol:
+  Enabled: true
+  VersionAdded: "0.50"
+  VersionChanged: "1.22"
+Lint/CircularArgumentReference:
+  Enabled: true
+  VersionAdded: "0.33"
+Lint/ConstantDefinitionInBlock:
+  Enabled: true
+  VersionAdded: "0.91"
+  VersionChanged: "1.3"
+Lint/ConstantOverwrittenInRescue:
+  Enabled: true
+  VersionAdded: "1.31"
+Lint/ConstantResolution:
+  Enabled: false
+  VersionAdded: "0.86"
+Lint/Debugger:
+  Enabled: true
+  VersionAdded: "0.14"
+  VersionChanged: "1.63"
+Lint/DeprecatedClassMethods:
+  Enabled: true
+  VersionAdded: "0.19"
+Lint/DeprecatedConstants:
+  Enabled: true
+  VersionAdded: "1.8"
+  VersionChanged: "1.40"
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+  VersionAdded: "0.84"
+Lint/DisjunctiveAssignmentInConstructor:
+  Enabled: true
+  VersionAdded: "0.62"
+  VersionChanged: "0.88"
+Lint/DuplicateBranch:
+  Enabled: true
+  VersionAdded: "1.3"
+  VersionChanged: "1.7"
+Lint/DuplicateCaseCondition:
+  Enabled: true
+  VersionAdded: "0.45"
+Lint/DuplicateElsifCondition:
+  Enabled: true
+  VersionAdded: "0.88"
+Lint/DuplicateHashKey:
+  Enabled: true
+  VersionAdded: "0.34"
+  VersionChanged: "0.77"
+Lint/DuplicateMagicComment:
+  Enabled: true
+  VersionAdded: "1.37"
+Lint/DuplicateMatchPattern:
+  Enabled: true
+  VersionAdded: "1.50"
+Lint/DuplicateMethods:
+  Enabled: true
+  VersionAdded: "0.29"
+Lint/DuplicateRegexpCharacterClassElement:
+  Enabled: true
+  VersionAdded: "1.1"
+Lint/DuplicateRequire:
+  Enabled: true
+  VersionAdded: "0.90"
+  VersionChanged: "1.28"
+Lint/DuplicateRescueException:
+  Enabled: true
+  VersionAdded: "0.89"
+Lint/DuplicateSetElement:
+  Enabled: true
+  VersionAdded: "1.67"
+Lint/EachWithObjectArgument:
+  Enabled: true
+  VersionAdded: "0.31"
+Lint/ElseLayout:
+  Enabled: true
+  VersionAdded: "0.17"
+  VersionChanged: "1.2"
+Lint/EmptyBlock:
+  Enabled: true
+  VersionAdded: "1.1"
+  VersionChanged: "1.15"
+Lint/EmptyClass:
+  Enabled: true
+  VersionAdded: "1.3"
+Lint/EmptyConditionalBody:
+  Enabled: true
+  VersionAdded: "0.89"
+  VersionChanged: "1.61"
+Lint/EmptyEnsure:
+  Enabled: true
+  VersionAdded: "0.10"
+  VersionChanged: "1.61"
+Lint/EmptyExpression:
+  Enabled: true
+  VersionAdded: "0.45"
+Lint/EmptyFile:
+  Enabled: true
+  VersionAdded: "0.90"
+Lint/EmptyInPattern:
+  Enabled: true
+  VersionAdded: "1.16"
+Lint/EmptyInterpolation:
+  Enabled: true
+  VersionAdded: "0.20"
+  VersionChanged: "1.61"
+Lint/EmptyWhen:
+  Enabled: true
+  VersionAdded: "0.45"
+  VersionChanged: "0.83"
+Lint/EnsureReturn:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.83"
+Lint/ErbNewArguments:
+  Enabled: true
+  VersionAdded: "0.56"
+Lint/FlipFlop:
+  Enabled: true
+  VersionAdded: "0.16"
+Lint/FloatComparison:
+  Enabled: true
+  VersionAdded: "0.89"
+Lint/FloatOutOfRange:
+  Enabled: true
+  VersionAdded: "0.36"
+Lint/FormatParameterMismatch:
+  Enabled: true
+  VersionAdded: "0.33"
+Lint/HashCompareByIdentity:
+  Enabled: true
+  VersionAdded: "0.93"
+Lint/HeredocMethodCallPosition:
+  Enabled: false
+  VersionAdded: "0.68"
+Lint/IdentityComparison:
+  Enabled: true
+  VersionAdded: "0.91"
+Lint/ImplicitStringConcatenation:
+  Enabled: true
+  VersionAdded: "0.36"
+Lint/IncompatibleIoSelectWithFiberScheduler:
+  Enabled: true
+  VersionAdded: "1.21"
+  VersionChanged: "1.24"
+Lint/IneffectiveAccessModifier:
+  Enabled: true
+  VersionAdded: "0.36"
+Lint/InheritException:
+  Enabled: true
+  VersionAdded: "0.41"
+  VersionChanged: "1.26"
+Lint/InterpolationCheck:
+  Enabled: true
+  VersionAdded: "0.50"
+  VersionChanged: "1.40"
+Lint/ItWithoutArgumentsInBlock:
+  Enabled: true
+  VersionAdded: "1.59"
+Lint/LambdaWithoutLiteralBlock:
+  Enabled: true
+  VersionAdded: "1.8"
+Lint/LiteralAsCondition:
+  Enabled: true
+  VersionAdded: "0.51"
+Lint/LiteralAssignmentInCondition:
+  Enabled: true
+  VersionAdded: "1.58"
+Lint/LiteralInInterpolation:
+  Enabled: true
+  VersionAdded: "0.19"
+  VersionChanged: "0.32"
+Lint/Loop:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "1.3"
+Lint/MissingCopEnableDirective:
+  Enabled: true
+  VersionAdded: "0.52"
+Lint/MissingSuper:
+  Enabled: true
+  VersionAdded: "0.89"
+  VersionChanged: "1.4"
+Lint/MixedCaseRange:
+  Enabled: true
+  VersionAdded: "1.53"
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
+  VersionAdded: "0.85"
+Lint/MultipleComparison:
+  Enabled: true
+  VersionAdded: "0.47"
+  VersionChanged: "1.1"
+Lint/NestedMethodDefinition:
+  Enabled: true
+  VersionAdded: "0.32"
+Lint/NestedPercentLiteral:
+  Enabled: true
+  VersionAdded: "0.52"
+Lint/NextWithoutAccumulator:
+  Enabled: true
+  VersionAdded: "0.36"
+Lint/NoReturnInBeginEndBlocks:
+  Enabled: true
+  VersionAdded: "1.2"
+Lint/NonAtomicFileOperation:
+  Enabled: true
+  VersionAdded: "1.31"
+Lint/NonDeterministicRequireOrder:
+  Enabled: true
+  VersionAdded: "0.78"
+Lint/NonLocalExitFromIterator:
+  Enabled: true
+  VersionAdded: "0.30"
+Lint/NumberConversion:
+  Enabled: false
+  VersionAdded: "0.53"
+  VersionChanged: "1.1"
+Lint/NumberedParameterAssignment:
+  Enabled: true
+  VersionAdded: "1.9"
+Lint/OrAssignmentToConstant:
+  Enabled: true
+  VersionAdded: "1.9"
+Lint/OrderedMagicComments:
+  Enabled: true
+  VersionAdded: "0.53"
+  VersionChanged: "1.37"
+Lint/OutOfRangeRegexpRef:
+  Enabled: true
+  VersionAdded: "0.89"
+Lint/ParenthesesAsGroupedExpression:
+  Enabled: true
+  VersionAdded: "0.12"
+  VersionChanged: "0.83"
+Lint/PercentStringArray:
+  Enabled: true
+  VersionAdded: "0.41"
+Lint/PercentSymbolArray:
+  Enabled: true
+  VersionAdded: "0.41"
+Lint/RaiseException:
+  Enabled: true
+  VersionAdded: "0.81"
+  VersionChanged: "0.86"
+Lint/RandOne:
+  Enabled: true
+  VersionAdded: "0.36"
+Lint/RedundantCopDisableDirective:
+  Enabled: true
+  VersionAdded: "0.76"
+Lint/RedundantCopEnableDirective:
+  Enabled: true
+  VersionAdded: "0.76"
+Lint/RedundantDirGlobSort:
+  Enabled: true
+  VersionAdded: "1.8"
+  VersionChanged: "1.26"
+Lint/RedundantRegexpQuantifiers:
+  Enabled: true
+  VersionAdded: "1.53"
+Lint/RedundantRequireStatement:
+  Enabled: true
+  VersionAdded: "0.76"
+  VersionChanged: "1.57"
+Lint/RedundantSafeNavigation:
+  Enabled: true
+  VersionAdded: "0.93"
+Lint/RedundantSplatExpansion:
+  Enabled: true
+  VersionAdded: "0.76"
+  VersionChanged: "1.7"
+Lint/RedundantStringCoercion:
+  Enabled: true
+  VersionAdded: "0.19"
+  VersionChanged: "0.77"
+Lint/RedundantWithIndex:
+  Enabled: true
+  VersionAdded: "0.50"
+Lint/RedundantWithObject:
+  Enabled: true
+  VersionAdded: "0.51"
+Lint/RefinementImportMethods:
+  Enabled: true
+  VersionAdded: "1.27"
+Lint/RegexpAsCondition:
+  Enabled: true
+  VersionAdded: "0.51"
+  VersionChanged: "0.86"
+Lint/RequireParentheses:
+  Enabled: true
+  VersionAdded: "0.18"
+Lint/RequireRangeParentheses:
+  Enabled: true
+  VersionAdded: "1.32"
+Lint/RequireRelativeSelfPath:
+  Enabled: true
+  VersionAdded: "1.22"
+Lint/RescueException:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.27"
+Lint/RescueType:
+  Enabled: true
+  VersionAdded: "0.49"
+Lint/ReturnInVoidContext:
+  Enabled: true
+  VersionAdded: "0.50"
+Lint/SafeNavigationChain:
+  Enabled: true
+  VersionAdded: "0.47"
+  VersionChanged: "0.77"
+Lint/SafeNavigationConsistency:
+  Enabled: true
+  VersionAdded: "0.55"
+  VersionChanged: "0.77"
+Lint/SafeNavigationWithEmpty:
+  Enabled: true
+  VersionAdded: "0.62"
+  VersionChanged: "0.87"
+Lint/ScriptPermission:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "0.50"
+Lint/SelfAssignment:
+  Enabled: true
+  VersionAdded: "0.89"
+Lint/SendWithMixinArgument:
+  Enabled: true
+  VersionAdded: "0.75"
+Lint/ShadowedArgument:
+  Enabled: true
+  VersionAdded: "0.52"
+Lint/ShadowedException:
+  Enabled: true
+  VersionAdded: "0.41"
+Lint/ShadowingOuterLocalVariable:
+  Enabled: true
+  VersionAdded: "0.9"
+Lint/StructNewOverride:
+  Enabled: true
+  VersionAdded: "0.81"
+Lint/SuppressedException:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "1.12"
+Lint/SymbolConversion:
+  Enabled: true
+  VersionAdded: "1.9"
+  VersionChanged: "1.16"
+Lint/Syntax:
+  Enabled: true
+  VersionAdded: "0.9"
+Lint/ToEnumArguments:
+  Enabled: true
+  VersionAdded: "1.1"
+Lint/ToJSON:
+  Enabled: true
+  VersionAdded: "0.66"
+Lint/TopLevelReturnWithArgument:
+  Enabled: true
+  VersionAdded: "0.89"
+Lint/TrailingCommaInAttributeDeclaration:
+  Enabled: true
+  VersionAdded: "0.90"
+  VersionChanged: "1.61"
+Lint/TripleQuotes:
+  Enabled: true
+  VersionAdded: "1.9"
+Lint/UnderscorePrefixedVariableName:
+  Enabled: true
+  VersionAdded: "0.21"
+Lint/UnexpectedBlockArity:
+  Enabled: true
+  VersionAdded: "1.5"
+Lint/UnifiedInteger:
+  Enabled: true
+  VersionAdded: "0.43"
+Lint/UnmodifiedReduceAccumulator:
+  Enabled: true
+  VersionAdded: "1.1"
+  VersionChanged: "1.5"
+Lint/UnreachableCode:
+  Enabled: true
+  VersionAdded: "0.9"
+Lint/UnreachableLoop:
+  Enabled: true
+  VersionAdded: "0.89"
+  VersionChanged: "1.7"
+Lint/UnusedBlockArgument:
+  Enabled: true
+  VersionAdded: "0.21"
+  VersionChanged: "1.61"
+Lint/UnusedMethodArgument:
+  Enabled: true
+  VersionAdded: "0.21"
+  VersionChanged: "1.61"
+Lint/UriEscapeUnescape:
+  Enabled: true
+  VersionAdded: "0.50"
+Lint/UriRegexp:
+  Enabled: true
+  VersionAdded: "0.50"
+Lint/UselessAccessModifier:
+  Enabled: true
+  VersionAdded: "0.20"
+  VersionChanged: "1.61"
+Lint/UselessAssignment:
+  Enabled: true
+  VersionAdded: "0.11"
+  VersionChanged: "1.66"
+Lint/UselessElseWithoutRescue:
+  Enabled: true
+  VersionAdded: "0.17"
+  VersionChanged: "1.31"
+Lint/UselessMethodDefinition:
+  Enabled: true
+  VersionAdded: "0.90"
+  VersionChanged: "1.61"
+Lint/UselessNumericOperation:
+  Enabled: true
+  VersionAdded: "1.66"
+Lint/UselessRescue:
+  Enabled: true
+  VersionAdded: "1.43"
+Lint/UselessRuby2Keywords:
+  Enabled: true
+  VersionAdded: "1.23"
+Lint/UselessSetterCall:
+  Enabled: true
+  VersionAdded: "0.13"
+  VersionChanged: "1.2"
+Lint/UselessTimes:
+  Enabled: true
+  VersionAdded: "0.91"
+  VersionChanged: "1.61"
+Lint/Void:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "1.61"
+# Department 'Metrics' (10):
+Metrics/AbcSize:
+  Enabled: true
+  VersionAdded: "0.27"
+  VersionChanged: "1.5"
+Metrics/BlockLength:
+  Enabled: true
+  VersionAdded: "0.44"
+  VersionChanged: "1.5"
+Metrics/BlockNesting:
+  Enabled: true
+  VersionAdded: "0.25"
+  VersionChanged: "1.65"
+Metrics/ClassLength:
+  Enabled: true
+  VersionAdded: "0.25"
+  VersionChanged: "0.87"
+Metrics/CollectionLiteralLength:
+  Enabled: true
+  VersionAdded: "1.47"
+Metrics/CyclomaticComplexity:
+  Enabled: true
+  VersionAdded: "0.25"
+  VersionChanged: "0.81"
+Metrics/MethodLength:
+  Enabled: true
+  VersionAdded: "0.25"
+  VersionChanged: "1.5"
+Metrics/ModuleLength:
+  Enabled: true
+  VersionAdded: "0.31"
+  VersionChanged: "0.87"
+Metrics/ParameterLists:
+  Enabled: true
+  VersionAdded: "0.25"
+  VersionChanged: "1.5"
+Metrics/PerceivedComplexity:
+  Enabled: true
+  VersionAdded: "0.25"
+  VersionChanged: "0.81"
+# Department 'Migration' (1):
+Migration/DepartmentName:
+  Enabled: true
+  VersionAdded: "0.75"
+# Department 'Naming' (18):
+Naming/AccessorMethodName:
+  Enabled: true
+  VersionAdded: "0.50"
+Naming/AsciiIdentifiers:
+  Enabled: true
+  VersionAdded: "0.50"
+  VersionChanged: "0.87"
+Naming/BinaryOperatorParameterName:
+  Enabled: true
+  VersionAdded: "0.50"
+  VersionChanged: "1.2"
+Naming/BlockForwarding:
+  Enabled: true
+  VersionAdded: "1.24"
+Naming/BlockParameterName:
+  Enabled: true
+  VersionAdded: "0.53"
+  VersionChanged: "0.77"
+Naming/ClassAndModuleCamelCase:
+  Enabled: true
+  VersionAdded: "0.50"
+  VersionChanged: "0.85"
+Naming/ConstantName:
+  Enabled: true
+  VersionAdded: "0.50"
+Naming/FileName:
+  Enabled: true
+  VersionAdded: "0.50"
+  VersionChanged: "1.23"
+Naming/HeredocDelimiterCase:
+  Enabled: true
+  VersionAdded: "0.50"
+  VersionChanged: "1.2"
+Naming/HeredocDelimiterNaming:
+  Enabled: true
+  VersionAdded: "0.50"
+Naming/InclusiveLanguage:
+  Enabled: false
+  VersionAdded: "1.18"
+  VersionChanged: "1.49"
+Naming/MemoizedInstanceVariableName:
+  Enabled: true
+  VersionAdded: "0.53"
+  VersionChanged: "1.2"
+Naming/MethodName:
+  Enabled: true
+  VersionAdded: "0.50"
+Naming/MethodParameterName:
+  Enabled: true
+  VersionAdded: "0.53"
+  VersionChanged: "0.77"
+Naming/PredicateName:
+  Enabled: true
+  VersionAdded: "0.50"
+  VersionChanged: "0.77"
+Naming/RescuedExceptionsVariableName:
+  Enabled: true
+  VersionAdded: "0.67"
+  VersionChanged: "0.68"
+Naming/VariableName:
+  Enabled: true
+  VersionAdded: "0.50"
+  VersionChanged: "1.8"
+Naming/VariableNumber:
+  Enabled: true
+  VersionAdded: "0.50"
+  VersionChanged: "1.4"
+# Department 'Security' (7):
+Security/CompoundHash:
+  Enabled: true
+  VersionAdded: "1.28"
+  VersionChanged: "1.51"
+Security/Eval:
+  Enabled: true
+  VersionAdded: "0.47"
+Security/IoMethods:
+  Enabled: true
+  VersionAdded: "1.22"
+Security/JSONLoad:
+  Enabled: true
+  VersionAdded: "0.43"
+  VersionChanged: "1.22"
+Security/MarshalLoad:
+  Enabled: true
+  VersionAdded: "0.47"
+Security/Open:
+  Enabled: true
+  VersionAdded: "0.53"
+  VersionChanged: "1.0"
+Security/YAMLLoad:
+  Enabled: true
+  VersionAdded: "0.47"
+# Department 'Style' (264):
+Style/AccessModifierDeclarations:
+  Enabled: true
+  VersionAdded: "0.57"
+  VersionChanged: "0.81"
+Style/AccessorGrouping:
+  Enabled: true
+  VersionAdded: "0.87"
+Style/Alias:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.36"
+Style/AndOr:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "1.21"
+Style/ArgumentsForwarding:
+  Enabled: true
+  VersionAdded: "1.1"
+  VersionChanged: "1.58"
+Style/ArrayCoercion:
+  Enabled: false
+  VersionAdded: "0.88"
+Style/ArrayFirstLast:
+  Enabled: false
+  VersionAdded: "1.58"
+Style/ArrayIntersect:
+  Enabled: true
+  VersionAdded: "1.40"
+Style/ArrayJoin:
+  Enabled: true
+  VersionAdded: "0.20"
+  VersionChanged: "0.31"
+Style/AsciiComments:
+  Enabled: false
+  VersionAdded: "0.9"
+  VersionChanged: "1.21"
+Style/Attr:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.12"
+Style/AutoResourceCleanup:
+  Enabled: false
+  VersionAdded: "0.30"
+Style/BarePercentLiterals:
+  Enabled: true
+  VersionAdded: "0.25"
+Style/BeginBlock:
+  Enabled: true
+  VersionAdded: "0.9"
+Style/BisectedAttrAccessor:
+  Enabled: true
+  VersionAdded: "0.87"
+Style/BlockComments:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.23"
+Style/BlockDelimiters:
+  Enabled: true
+  VersionAdded: "0.30"
+  VersionChanged: "0.35"
+Style/CaseEquality:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.89"
+Style/CaseLikeIf:
+  Enabled: true
+  VersionAdded: "0.88"
+  VersionChanged: "1.48"
+Style/CharacterLiteral:
+  Enabled: true
+  VersionAdded: "0.9"
+Style/ClassAndModuleChildren:
+  Enabled: true
+  VersionAdded: "0.19"
+Style/ClassCheck:
+  Enabled: true
+  VersionAdded: "0.24"
+Style/ClassEqualityComparison:
+  Enabled: true
+  VersionAdded: "0.93"
+  VersionChanged: "1.57"
+Style/ClassMethods:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.20"
+Style/ClassMethodsDefinitions:
+  Enabled: false
+  VersionAdded: "0.89"
+Style/ClassVars:
+  Enabled: true
+  VersionAdded: "0.13"
+Style/CollectionCompact:
+  Enabled: true
+  VersionAdded: "1.2"
+  VersionChanged: "1.3"
+Style/CollectionMethods:
+  Enabled: false
+  VersionAdded: "0.9"
+  VersionChanged: "1.7"
+Style/ColonMethodCall:
+  Enabled: true
+  VersionAdded: "0.9"
+Style/ColonMethodDefinition:
+  Enabled: true
+  VersionAdded: "0.52"
+Style/CombinableLoops:
+  Enabled: true
+  VersionAdded: "0.90"
+Style/CommandLiteral:
+  Enabled: true
+  VersionAdded: "0.30"
+Style/CommentAnnotation:
+  Enabled: true
+  VersionAdded: "0.10"
+  VersionChanged: "1.20"
+Style/CommentedKeyword:
+  Enabled: true
+  VersionAdded: "0.51"
+  VersionChanged: "1.19"
+Style/ComparableClamp:
+  Enabled: true
+  VersionAdded: "1.44"
+Style/ConcatArrayLiterals:
+  Enabled: true
+  VersionAdded: "1.41"
+Style/ConditionalAssignment:
+  Enabled: true
+  VersionAdded: "0.36"
+  VersionChanged: "0.47"
+Style/ConstantVisibility:
+  Enabled: false
+  VersionAdded: "0.66"
+  VersionChanged: "1.10"
+Style/Copyright:
+  Enabled: false
+  VersionAdded: "0.30"
+Style/DataInheritance:
+  Enabled: true
+  VersionAdded: "1.49"
+  VersionChanged: "1.51"
+Style/DateTime:
+  Enabled: false
+  VersionAdded: "0.51"
+  VersionChanged: "0.92"
+Style/DefWithParentheses:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.12"
+Style/Dir:
+  Enabled: true
+  VersionAdded: "0.50"
+Style/DirEmpty:
+  Enabled: true
+  VersionAdded: "1.48"
+Style/DisableCopsWithinSourceCodeDirective:
+  Enabled: false
+  VersionAdded: "0.82"
+  VersionChanged: "1.9"
+Style/DocumentDynamicEvalDefinition:
+  Enabled: true
+  VersionAdded: "1.1"
+  VersionChanged: "1.3"
+Style/Documentation:
+  Enabled: true
+  VersionAdded: "0.9"
+Style/DocumentationMethod:
+  Enabled: false
+  VersionAdded: "0.43"
+Style/DoubleCopDisableDirective:
+  Enabled: true
+  VersionAdded: "0.73"
+Style/DoubleNegation:
+  Enabled: true
+  VersionAdded: "0.19"
+  VersionChanged: "1.2"
+Style/EachForSimpleLoop:
+  Enabled: true
+  VersionAdded: "0.41"
+Style/EachWithObject:
+  Enabled: true
+  VersionAdded: "0.22"
+  VersionChanged: "0.42"
+Style/EmptyBlockParameter:
+  Enabled: true
+  VersionAdded: "0.52"
+Style/EmptyCaseCondition:
+  Enabled: true
+  VersionAdded: "0.40"
+Style/EmptyElse:
+  Enabled: true
+  VersionAdded: "0.28"
+  VersionChanged: "1.61"
+Style/EmptyHeredoc:
+  Enabled: true
+  VersionAdded: "1.32"
+  VersionChanged: "1.61"
+Style/EmptyLambdaParameter:
+  Enabled: true
+  VersionAdded: "0.52"
+Style/EmptyLiteral:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.12"
+Style/EmptyMethod:
+  Enabled: true
+  VersionAdded: "0.46"
+  VersionChanged: "1.61"
+Style/Encoding:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.50"
+Style/EndBlock:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.81"
+Style/EndlessMethod:
+  Enabled: true
+  VersionAdded: "1.8"
+Style/EnvHome:
+  Enabled: true
+  VersionAdded: "1.29"
+Style/EvalWithLocation:
+  Enabled: true
+  VersionAdded: "0.52"
+Style/EvenOdd:
+  Enabled: true
+  VersionAdded: "0.12"
+  VersionChanged: "0.29"
+Style/ExactRegexpMatch:
+  Enabled: true
+  VersionAdded: "1.51"
+Style/ExpandPathArguments:
+  Enabled: true
+  VersionAdded: "0.53"
+Style/ExplicitBlockArgument:
+  Enabled: true
+  VersionAdded: "0.89"
+  VersionChanged: "1.8"
+Style/ExponentialNotation:
+  Enabled: true
+  VersionAdded: "0.82"
+Style/FetchEnvVar:
+  Enabled: true
+  VersionAdded: "1.28"
+Style/FileEmpty:
+  Enabled: true
+  VersionAdded: "1.48"
+Style/FileRead:
+  Enabled: true
+  VersionAdded: "1.24"
+Style/FileWrite:
+  Enabled: true
+  VersionAdded: "1.24"
+Style/FloatDivision:
+  Enabled: true
+  VersionAdded: "0.72"
+  VersionChanged: "1.9"
+Style/For:
+  Enabled: true
+  VersionAdded: "0.13"
+  VersionChanged: "1.26"
+Style/FormatString:
+  Enabled: true
+  VersionAdded: "0.19"
+  VersionChanged: "0.49"
+Style/FormatStringToken:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "1.0"
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  VersionAdded: "0.36"
+  VersionChanged: "0.79"
+Style/GlobalStdStream:
+  Enabled: true
+  VersionAdded: "0.89"
+Style/GlobalVars:
+  Enabled: true
+  VersionAdded: "0.13"
+Style/GuardClause:
+  Enabled: true
+  VersionAdded: "0.20"
+  VersionChanged: "1.31"
+Style/HashAsLastArrayItem:
+  Enabled: true
+  VersionAdded: "0.88"
+Style/HashConversion:
+  Enabled: true
+  VersionAdded: "1.10"
+  VersionChanged: "1.55"
+Style/HashEachMethods:
+  Enabled: true
+  VersionAdded: "0.80"
+  VersionChanged: "1.16"
+Style/HashExcept:
+  Enabled: true
+  VersionAdded: "1.7"
+  VersionChanged: "1.39"
+Style/HashLikeCase:
+  Enabled: true
+  VersionAdded: "0.88"
+Style/HashSyntax:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "1.67"
+Style/HashTransformKeys:
+  Enabled: true
+  VersionAdded: "0.80"
+  VersionChanged: "0.90"
+Style/HashTransformValues:
+  Enabled: true
+  VersionAdded: "0.80"
+  VersionChanged: "0.90"
+Style/IdenticalConditionalBranches:
+  Enabled: true
+  VersionAdded: "0.36"
+  VersionChanged: "1.19"
+Style/IfInsideElse:
+  Enabled: true
+  VersionAdded: "0.36"
+  VersionChanged: "1.3"
+Style/IfUnlessModifier:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.30"
+Style/IfUnlessModifierOfIfUnless:
+  Enabled: true
+  VersionAdded: "0.39"
+  VersionChanged: "0.87"
+Style/IfWithBooleanLiteralBranches:
+  Enabled: true
+  VersionAdded: "1.9"
+Style/IfWithSemicolon:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.83"
+Style/ImplicitRuntimeError:
+  Enabled: false
+  VersionAdded: "0.41"
+Style/InPatternThen:
+  Enabled: true
+  VersionAdded: "1.16"
+Style/InfiniteLoop:
+  Enabled: true
+  VersionAdded: "0.26"
+  VersionChanged: "0.61"
+Style/InlineComment:
+  Enabled: false
+  VersionAdded: "0.23"
+Style/InverseMethods:
+  Enabled: true
+  VersionAdded: "0.48"
+Style/InvertibleUnlessCondition:
+  Enabled: false
+  VersionAdded: "1.44"
+  VersionChanged: "1.50"
+Style/IpAddresses:
+  Enabled: false
+  VersionAdded: "0.58"
+  VersionChanged: "0.91"
+Style/KeywordParametersOrder:
+  Enabled: true
+  VersionAdded: "0.90"
+  VersionChanged: "1.7"
+Style/Lambda:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.40"
+Style/LambdaCall:
+  Enabled: true
+  VersionAdded: "0.13"
+  VersionChanged: "0.14"
+Style/LineEndConcatenation:
+  Enabled: true
+  VersionAdded: "0.18"
+  VersionChanged: "0.64"
+Style/MagicCommentFormat:
+  Enabled: true
+  VersionAdded: "1.35"
+Style/MapCompactWithConditionalBlock:
+  Enabled: true
+  VersionAdded: "1.30"
+Style/MapIntoArray:
+  Enabled: true
+  VersionAdded: "1.63"
+  VersionChanged: "1.67"
+Style/MapToHash:
+  Enabled: true
+  VersionAdded: "1.24"
+Style/MapToSet:
+  Enabled: true
+  VersionAdded: "1.42"
+Style/MethodCallWithArgsParentheses:
+  Enabled: false
+  VersionAdded: "0.47"
+  VersionChanged: "1.7"
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: true
+  VersionAdded: "0.47"
+  VersionChanged: "0.55"
+Style/MethodCalledOnDoEndBlock:
+  Enabled: false
+  VersionAdded: "0.14"
+Style/MethodDefParentheses:
+  Enabled: true
+  VersionAdded: "0.16"
+  VersionChanged: "1.7"
+Style/MinMax:
+  Enabled: true
+  VersionAdded: "0.50"
+Style/MinMaxComparison:
+  Enabled: true
+  VersionAdded: "1.42"
+Style/MissingElse:
+  Enabled: false
+  VersionAdded: "0.30"
+  VersionChanged: "0.38"
+Style/MissingRespondToMissing:
+  Enabled: true
+  VersionAdded: "0.56"
+Style/MixinGrouping:
+  Enabled: true
+  VersionAdded: "0.48"
+  VersionChanged: "0.49"
+Style/MixinUsage:
+  Enabled: true
+  VersionAdded: "0.51"
+Style/ModuleFunction:
+  Enabled: true
+  VersionAdded: "0.11"
+  VersionChanged: "0.65"
+Style/MultilineBlockChain:
+  Enabled: true
+  VersionAdded: "0.13"
+Style/MultilineIfModifier:
+  Enabled: true
+  VersionAdded: "0.45"
+Style/MultilineIfThen:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.26"
+Style/MultilineInPatternThen:
+  Enabled: true
+  VersionAdded: "1.16"
+Style/MultilineMemoization:
+  Enabled: true
+  VersionAdded: "0.44"
+  VersionChanged: "0.48"
+Style/MultilineMethodSignature:
+  Enabled: false
+  VersionAdded: "0.59"
+  VersionChanged: "1.7"
+Style/MultilineTernaryOperator:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.86"
+Style/MultilineWhenThen:
+  Enabled: true
+  VersionAdded: "0.73"
+Style/MultipleComparison:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "1.1"
+Style/MutableConstant:
+  Enabled: true
+  VersionAdded: "0.34"
+  VersionChanged: "1.8"
+Style/NegatedIf:
+  Enabled: true
+  VersionAdded: "0.20"
+  VersionChanged: "0.48"
+Style/NegatedIfElseCondition:
+  Enabled: true
+  VersionAdded: "1.2"
+Style/NegatedUnless:
+  Enabled: true
+  VersionAdded: "0.69"
+Style/NegatedWhile:
+  Enabled: true
+  VersionAdded: "0.20"
+Style/NestedFileDirname:
+  Enabled: true
+  VersionAdded: "1.26"
+Style/NestedModifier:
+  Enabled: true
+  VersionAdded: "0.35"
+Style/NestedParenthesizedCalls:
+  Enabled: true
+  VersionAdded: "0.36"
+  VersionChanged: "0.77"
+Style/NestedTernaryOperator:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.86"
+Style/Next:
+  Enabled: true
+  VersionAdded: "0.22"
+  VersionChanged: "0.35"
+Style/NilComparison:
+  Enabled: true
+  VersionAdded: "0.12"
+  VersionChanged: "0.59"
+Style/NilLambda:
+  Enabled: true
+  VersionAdded: "1.3"
+  VersionChanged: "1.15"
+Style/NonNilCheck:
+  Enabled: true
+  VersionAdded: "0.20"
+  VersionChanged: "0.22"
+Style/Not:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.20"
+Style/NumberedParameters:
+  Enabled: true
+  VersionAdded: "1.22"
+Style/NumberedParametersLimit:
+  Enabled: true
+  VersionAdded: "1.22"
+Style/NumericLiteralPrefix:
+  Enabled: true
+  VersionAdded: "0.41"
+Style/NumericLiterals:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.48"
+Style/NumericPredicate:
+  Enabled: true
+  VersionAdded: "0.42"
+  VersionChanged: "0.59"
+Style/ObjectThen:
+  Enabled: true
+  VersionAdded: "1.28"
+Style/OneLineConditional:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.90"
+Style/OpenStructUse:
+  Enabled: true
+  VersionAdded: "1.23"
+  VersionChanged: "1.51"
+Style/OperatorMethodCall:
+  Enabled: true
+  VersionAdded: "1.37"
+Style/OptionHash:
+  Enabled: false
+  VersionAdded: "0.33"
+  VersionChanged: "0.34"
+Style/OptionalArguments:
+  Enabled: true
+  VersionAdded: "0.33"
+  VersionChanged: "0.83"
+Style/OptionalBooleanParameter:
+  Enabled: true
+  VersionAdded: "0.89"
+Style/OrAssignment:
+  Enabled: true
+  VersionAdded: "0.50"
+Style/ParallelAssignment:
+  Enabled: true
+  VersionAdded: "0.32"
+Style/ParenthesesAroundCondition:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.56"
+Style/PercentLiteralDelimiters:
+  Enabled: true
+  VersionAdded: "0.19"
+  VersionChanged: "0.48"
+Style/PercentQLiterals:
+  Enabled: true
+  VersionAdded: "0.25"
+Style/PerlBackrefs:
+  Enabled: true
+  VersionAdded: "0.13"
+Style/PreferredHashMethods:
+  Enabled: true
+  VersionAdded: "0.41"
+  VersionChanged: "0.70"
+Style/Proc:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.18"
+Style/QuotedSymbols:
+  Enabled: true
+  VersionAdded: "1.16"
+Style/RaiseArgs:
+  Enabled: true
+  VersionAdded: "0.14"
+  VersionChanged: "1.61"
+Style/RandomWithOffset:
+  Enabled: true
+  VersionAdded: "0.52"
+Style/RedundantArgument:
+  Enabled: true
+  VersionAdded: "1.4"
+  VersionChanged: "1.55"
+Style/RedundantArrayConstructor:
+  Enabled: true
+  VersionAdded: "1.52"
+Style/RedundantAssignment:
+  Enabled: true
+  VersionAdded: "0.87"
+Style/RedundantBegin:
+  Enabled: true
+  VersionAdded: "0.10"
+  VersionChanged: "0.21"
+Style/RedundantCapitalW:
+  Enabled: true
+  VersionAdded: "0.76"
+Style/RedundantCondition:
+  Enabled: true
+  VersionAdded: "0.76"
+Style/RedundantConditional:
+  Enabled: true
+  VersionAdded: "0.50"
+Style/RedundantConstantBase:
+  Enabled: true
+  VersionAdded: "1.40"
+Style/RedundantCurrentDirectoryInPath:
+  Enabled: true
+  VersionAdded: "1.53"
+Style/RedundantDoubleSplatHashBraces:
+  Enabled: true
+  VersionAdded: "1.41"
+Style/RedundantEach:
+  Enabled: true
+  VersionAdded: "1.38"
+Style/RedundantException:
+  Enabled: true
+  VersionAdded: "0.14"
+  VersionChanged: "0.29"
+Style/RedundantFetchBlock:
+  Enabled: true
+  VersionAdded: "0.86"
+Style/RedundantFileExtensionInRequire:
+  Enabled: true
+  VersionAdded: "0.88"
+Style/RedundantFilterChain:
+  Enabled: true
+  VersionAdded: "1.52"
+  VersionChanged: "1.57"
+Style/RedundantFreeze:
+  Enabled: true
+  VersionAdded: "0.34"
+  VersionChanged: "0.66"
+Style/RedundantHeredocDelimiterQuotes:
+  Enabled: true
+  VersionAdded: "1.45"
+Style/RedundantInitialize:
+  Enabled: true
+  VersionAdded: "1.27"
+  VersionChanged: "1.61"
+Style/RedundantInterpolation:
+  Enabled: true
+  VersionAdded: "0.76"
+  VersionChanged: "1.30"
+Style/RedundantInterpolationUnfreeze:
+  Enabled: true
+  VersionAdded: "1.66"
+Style/RedundantLineContinuation:
+  Enabled: true
+  VersionAdded: "1.49"
+Style/RedundantParentheses:
+  Enabled: true
+  VersionAdded: "0.36"
+Style/RedundantPercentQ:
+  Enabled: true
+  VersionAdded: "0.76"
+Style/RedundantRegexpArgument:
+  Enabled: true
+  VersionAdded: "1.53"
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+  VersionAdded: "0.85"
+Style/RedundantRegexpConstructor:
+  Enabled: true
+  VersionAdded: "1.52"
+Style/RedundantRegexpEscape:
+  Enabled: true
+  VersionAdded: "0.85"
+Style/RedundantReturn:
+  Enabled: true
+  VersionAdded: "0.10"
+  VersionChanged: "0.14"
+Style/RedundantSelf:
+  Enabled: true
+  VersionAdded: "0.10"
+  VersionChanged: "0.13"
+Style/RedundantSelfAssignment:
+  Enabled: true
+  VersionAdded: "0.90"
+Style/RedundantSelfAssignmentBranch:
+  Enabled: true
+  VersionAdded: "1.19"
+Style/RedundantSort:
+  Enabled: true
+  VersionAdded: "0.76"
+  VersionChanged: "1.22"
+Style/RedundantSortBy:
+  Enabled: true
+  VersionAdded: "0.36"
+Style/RedundantStringEscape:
+  Enabled: true
+  VersionAdded: "1.37"
+Style/RegexpLiteral:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.30"
+Style/RequireOrder:
+  Enabled: false
+  VersionAdded: "1.40"
+Style/RescueModifier:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.34"
+Style/RescueStandardError:
+  Enabled: true
+  VersionAdded: "0.52"
+Style/ReturnNil:
+  Enabled: false
+  VersionAdded: "0.50"
+Style/ReturnNilInPredicateMethodDefinition:
+  Enabled: true
+  VersionAdded: "1.53"
+  VersionChanged: "1.67"
+Style/SafeNavigation:
+  Enabled: true
+  VersionAdded: "0.43"
+  VersionChanged: "1.67"
+Style/Sample:
+  Enabled: true
+  VersionAdded: "0.30"
+Style/SelectByRegexp:
+  Enabled: true
+  VersionAdded: "1.22"
+Style/SelfAssignment:
+  Enabled: true
+  VersionAdded: "0.19"
+  VersionChanged: "0.29"
+Style/Semicolon:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.19"
+Style/Send:
+  Enabled: false
+  VersionAdded: "0.33"
+Style/SendWithLiteralMethodName:
+  Enabled: true
+  VersionAdded: "1.64"
+Style/SignalException:
+  Enabled: true
+  VersionAdded: "0.11"
+  VersionChanged: "0.37"
+Style/SingleArgumentDig:
+  Enabled: true
+  VersionAdded: "0.89"
+Style/SingleLineBlockParams:
+  Enabled: false
+  VersionAdded: "0.16"
+  VersionChanged: "1.6"
+Style/SingleLineDoEndBlock:
+  Enabled: true
+  VersionAdded: "1.57"
+Style/SingleLineMethods:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "1.8"
+Style/SlicingWithRange:
+  Enabled: true
+  VersionAdded: "0.83"
+Style/SoleNestedConditional:
+  Enabled: true
+  VersionAdded: "0.89"
+  VersionChanged: "1.5"
+Style/SpecialGlobalVars:
+  Enabled: true
+  VersionAdded: "0.13"
+  VersionChanged: "0.36"
+Style/StabbyLambdaParentheses:
+  Enabled: true
+  VersionAdded: "0.35"
+Style/StaticClass:
+  Enabled: false
+  VersionAdded: "1.3"
+Style/StderrPuts:
+  Enabled: true
+  VersionAdded: "0.51"
+Style/StringChars:
+  Enabled: true
+  VersionAdded: "1.12"
+Style/StringConcatenation:
+  Enabled: true
+  VersionAdded: "0.89"
+  VersionChanged: "1.18"
+Style/StringHashKeys:
+  Enabled: false
+  VersionAdded: "0.52"
+  VersionChanged: "0.75"
+Style/StringLiterals:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.36"
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  VersionAdded: "0.27"
+Style/StringMethods:
+  Enabled: false
+  VersionAdded: "0.34"
+  VersionChanged: "0.34"
+Style/Strip:
+  Enabled: true
+  VersionAdded: "0.36"
+Style/StructInheritance:
+  Enabled: true
+  VersionAdded: "0.29"
+  VersionChanged: "1.20"
+Style/SuperArguments:
+  Enabled: true
+  VersionAdded: "1.64"
+Style/SuperWithArgsParentheses:
+  Enabled: true
+  VersionAdded: "1.58"
+Style/SwapValues:
+  Enabled: true
+  VersionAdded: "1.1"
+Style/SymbolArray:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.49"
+Style/SymbolLiteral:
+  Enabled: true
+  VersionAdded: "0.30"
+Style/SymbolProc:
+  Enabled: true
+  VersionAdded: "0.26"
+  VersionChanged: "1.64"
+Style/TernaryParentheses:
+  Enabled: true
+  VersionAdded: "0.42"
+  VersionChanged: "0.46"
+Style/TopLevelMethodDefinition:
+  Enabled: false
+  VersionAdded: "1.15"
+Style/TrailingBodyOnClass:
+  Enabled: true
+  VersionAdded: "0.53"
+Style/TrailingBodyOnMethodDefinition:
+  Enabled: true
+  VersionAdded: "0.52"
+Style/TrailingBodyOnModule:
+  Enabled: true
+  VersionAdded: "0.53"
+Style/TrailingCommaInArguments:
+  Enabled: true
+  VersionAdded: "0.36"
+Style/TrailingCommaInArrayLiteral:
+  Enabled: true
+  VersionAdded: "0.53"
+Style/TrailingCommaInBlockArgs:
+  Enabled: false
+  VersionAdded: "0.81"
+Style/TrailingCommaInHashLiteral:
+  Enabled: true
+  VersionAdded: "0.53"
+Style/TrailingMethodEndStatement:
+  Enabled: true
+  VersionAdded: "0.52"
+Style/TrailingUnderscoreVariable:
+  Enabled: true
+  VersionAdded: "0.31"
+  VersionChanged: "0.35"
+Style/TrivialAccessors:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "1.15"
+Style/UnlessElse:
+  Enabled: true
+  VersionAdded: "0.9"
+Style/UnlessLogicalOperators:
+  Enabled: false
+  VersionAdded: "1.11"
+Style/UnpackFirst:
+  Enabled: true
+  VersionAdded: "0.54"
+Style/VariableInterpolation:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.20"
+Style/WhenThen:
+  Enabled: true
+  VersionAdded: "0.9"
+Style/WhileUntilDo:
+  Enabled: true
+  VersionAdded: "0.9"
+Style/WhileUntilModifier:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "0.30"
+Style/WordArray:
+  Enabled: true
+  VersionAdded: "0.9"
+  VersionChanged: "1.19"
+Style/YAMLFileRead:
+  Enabled: true
+  VersionAdded: "1.53"
+Style/YodaCondition:
+  Enabled: true
+  VersionAdded: "0.49"
+  VersionChanged: "0.75"
+Style/YodaExpression:
+  Enabled: false
+  VersionAdded: "1.42"
+  VersionChanged: "1.43"
+Style/ZeroLengthPredicate:
+  Enabled: true
+  VersionAdded: "0.37"
+  VersionChanged: "0.39"

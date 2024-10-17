@@ -1,0 +1,12 @@
+{
+    "[ruby]": {
+        "editor.defaultFormatter": "Shopify.ruby-lsp",
+        "editor.formatOnSave": true
+    },
+    "files.associations": {
+        "**/*.yml": "yaml"
+    },
+    "yaml.customTags": [
+        "!ruby/regexp"
+    ]
+}

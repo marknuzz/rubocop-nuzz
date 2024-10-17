@@ -1,0 +1,74 @@
+inherit_from: rubocop-defaults.yml
+inherit_mode:
+  merge:
+    - Exclude
+AllCops:
+  SuggestExtensions: false
+
+  # For an explanation of why we do this:
+  # https://github.com/rails/rubocop-rails-omakase/issues/14#issuecomment-1879765824
+  DisabledByDefault: true
+
+  Include:
+    - "**/*.rb"
+    - "**/*.rbi"
+    - "**/*.gemfile"
+    - "**/*.gemspec"
+    - "**/*.rake"
+    - "**/*.ru"
+    - "Gemfile"
+    - "Rakefile"
+  Exclude:
+    # Excluding commonly-used non-ruby paths for performance
+    - "data/**/*"
+    - "docker/**/*"
+    - "docs/**/*"
+    - "log/**/*"
+    - "node_modules/**/*"
+    - "public/**/*"
+    - "tmp/**/*"
+    # Exclude common auto-generated rb files
+    - "db/schema.rb"
+    - "sorbet/rbi/{annotations,dsl,gems}/**/*"
+    - "sorbet/rails-rbi/**/*"
+    # Exclude vendored gems
+    - "vendor/**/*"
+
+# Optimal for my editor layout
+Layout/LineLength:
+  Max: 119
+
+# Rely on code reviews instead of imposing these constraints
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/PerceivedComplexity:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+
+# I prefer to use this as a reminder rather than a rule, disable inline as needed
+Metrics/ModuleLength:
+  Max: 500
+Metrics/ClassLength:
+  Max: 500
+Metrics/MethodLength:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+
+# Doesn't work with Sorbet, but I prefer to leave this off regardless
+Naming/BlockForwarding:
+  Enabled: false
+Style/ArgumentsForwarding:
+  Enabled: false
+
+# I'd rather have no documentation than useless documentation, which is all this will do.
+# Documentation has to be inspired, not forced
+Style/Documentation:
+  Enabled: false
+
+# Disabled to prevent code from being unintentionally changed by autoformatter while coding.
+# This has happened to me more than once, and it went unnoticed at first.
+# There are also cases where I disagree with this cop, so let's just disable it entirely.
+Style/GuardClause:
+  Enabled: false

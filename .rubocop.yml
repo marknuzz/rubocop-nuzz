@@ -1,4 +1,4 @@
-# For the development of this gem
+# For the development of this gem, but also a template for your own use of the gem
 inherit_gem: { rubocop-nuzz-core: rubocop.yml }
 AllCops:
   TargetRubyVersion: 3.0.0

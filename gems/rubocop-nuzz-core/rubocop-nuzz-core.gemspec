@@ -17,4 +17,6 @@ Gem::Specification.new do |s|
 
   s.files = %w[rubocop.yml rubocop-defaults.yml]
   s.metadata['rubygems_mfa_required'] = 'true'
+  s.cert_chain = ['certs/marknuzz.pem']
+  s.signing_key = File.expand_path('~/.ssh/gem-private_key.pem') if $PROGRAM_NAME =~ /gem\z/
 end

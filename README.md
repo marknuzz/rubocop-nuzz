@@ -27,4 +27,3 @@ AllCops:
   TargetRubyVersion: [Your Ruby Version]
 ```
 
-Use the 

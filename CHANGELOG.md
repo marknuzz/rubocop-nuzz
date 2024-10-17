@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 N/A
 
+## [0.1.1] - 2024-10-17
+
+### Fixed
+
+- Fixed gemspec metadata in rubocop-nuzz-core
+
 ## [0.1.0] - 2024-10-17
  
 ### Added
